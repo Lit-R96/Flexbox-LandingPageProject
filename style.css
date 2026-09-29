@@ -1,0 +1,259 @@
+body {
+    font: Roboto;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.header img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-self: center; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;     
+    background-color: #1F2937;
+   
+} 
+
+.logo {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-top: 10px;
+    gap: 8px;
+    
+}
+
+.logotext {
+    align-self: center;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;    
+    gap: 25px;  
+    list-style-type: none; 
+    font-size: 18px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+/* section 1 */
+
+.section1 {
+    display: flex;
+    gap: 20px;
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center; 
+}
+
+.subsection11 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 200px;
+    flex: 1;
+    min-width: 0;
+}
+
+.websitename {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 125px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imgsection1 {
+    margin-right: 200px;
+    flex: 1;
+    min-width: 0;
+    height: 250px;             
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    overflow: hidden;     
+}
+
+.imgsection1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+    object-position: center top;   
+    display: block;
+}
+
+/* section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 60px;  
+    padding-bottom: 120px;
+    gap: 60px; 
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    color: #192F37;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.piecescontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+    padding: 0 40px; 
+}
+
+.pieces {
+    width: 140px; 
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.pieces img {
+    width: 100%;
+    height: 100px; 
+    object-fit: contain; /* Evita que la imagen se deforme o estire */
+    display: block;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    color: #192F37;
+}
+
+
+/* section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+    margin-left: 200px;
+    margin-right: 200px; 
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
+
+/* section 4 */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+
+.subsection41 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea el texto y el botón al centro verticalmente */
+    background-color: #3882F6;
+    padding: 40px 90px;
+    border-radius: 10px;
+    gap: 125px;
+}
+
+.calls {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call1 {
+    font-weight: bold;  
+}
+
+.button2 button {
+    background-color: transparent; /* Mantiene el fondo azul del contenedor */
+    color: #F9FAF8; 
+    border: 2px solid #F9FAF8;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;               /* Cambia el puntero al pasar el ratón */
+}
+
+/* Efecto al pasar el ratón */
+.button2 button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
